@@ -1,0 +1,1 @@
+# google-user-activity-manager
