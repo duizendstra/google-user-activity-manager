@@ -19,7 +19,7 @@ function googleUserActivityManager(mainSpecs) {
                 parameters: parameters
             }, function (err, response) {
                 if (err) {
-                    reject("The API returned an error: " + err);
+                    reject(err);
                     return;
                 }
                 var usageReports = response;
